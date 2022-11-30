@@ -22,7 +22,7 @@ const getGitHubInfo = function (username) {
 btnGit.onclick = function(e) {
     e.preventDefault()
     //const retornoGit = getGitHubInfo(buscarGit);
-    alert("botão ok");
+   // alert("botão ok");
     getGitHubInfo(buscarGit.value);
 }
 
